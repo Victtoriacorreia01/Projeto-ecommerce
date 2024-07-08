@@ -1,0 +1,244 @@
+.home {
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+  }
+  
+  .hero {
+    background: linear-gradient(to right, #0d1218, #015976);
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: -1; 
+    animation: fadeInOut 8s infinite alternate;
+  }
+  
+  @keyframes fadeInOut {
+    0%, 100% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+    z-index: 1;
+    animation: slideUp 1s ease;
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #fff;
+    color: #38e8ff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .products {
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover img {
+    transform: scale(1.1);
+  }
+  
+  .product-info {
+    padding: 20px;
+  }
+  
+  .product-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .product-info p {
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .product-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .buy-button {
+    background-color: #072342;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: #00a9bb;
+  }
+  
+  .benefits {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 20px;
+  }
+  
+  .benefit {
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  .benefit:hover {
+    transform: translateY(-10px);
+  }
+  
+  .benefit i {
+    color: #007bff;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .benefit:hover i {
+    transform: scale(1.2);
+  }
+  
+  .benefit h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .benefit p {
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .testimonials {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .testimonial {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .testimonial:hover {
+    transform: scale(1.02);
+  }
+  
+  .testimonial p {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .contato {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #002637;
+    color: #fff;
+  }
+  
+  .contato h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .contato p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .contact-button {
+    background-color: #01eeff;
+    color: #010101;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #001088;
+  }
+  
+
+  

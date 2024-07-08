@@ -11,6 +11,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-section about">
           <img src={logo} alt="Logo da Empresa" className="logo" />
+          <p>All our social networks:</p>
           <div className="socials">
             <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
             <a href="#"><FontAwesomeIcon icon={faTwitter} /></a>
@@ -18,21 +19,21 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-section links">
-          
+          <h2>Links Úteis</h2>
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Projetos</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </div>
         <div className="footer-section contact">
           <h2>Contato</h2>
-          <p><FontAwesomeIcon icon={faPhone} /> (123) 456-7890</p>
+          <p><FontAwesomeIcon icon={faPhone} /> (000) 0000-0000</p>
           <p><FontAwesomeIcon icon={faEnvelope} /> info@example.com</p>
         </div>
       </div>
-      <p className="footer-bottom">&copy; 2024 Your E-Commerce. Todos os direitos reservados.</p>
+      <p className="footer-bottom">&copy; 2024 E-Commerce. Todos os direitos reservados.</p>
     </footer>
   );
 };
